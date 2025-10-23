@@ -1,0 +1,33 @@
+project/
+│
+│──data/
+│    │├ parquet
+     │
+     │──raw
+     │    │──tweets.csv
+     │
+     │──example.csv
+     │
+     │──test.csv
+     │──train.csv
+     │──val.csv
+     │
+│
+├── reports/              
+│      │──preds.csv
+       │
+├── models/              
+│   ├── baseline/
+│   ├── custom_rnn/
+│   └── transformer/distilbert
+│
+├── src/                 
+│   ├── train_baseline.py
+│   ├── train_custom_rnn.py
+│   ├── train_transformer.py
+│   ├── predict_rnn.py
+│   ├── prepare_tweets.py   
+│   └── parquet_to_csv.py   
+│
+├── README.txt            # commands
+└── requirements.txt     # libraries 
